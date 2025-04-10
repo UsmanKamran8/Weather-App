@@ -1,0 +1,92 @@
+body{
+    background:url(https://picsum.photos/600/300);
+    background-repeat: no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    padding:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#border{
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+    background-position: center;
+    border-radius: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;  
+    align-items: center;   
+    width: 375px;
+    border: 2px solid black;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+}
+
+#KC{
+        position: absolute;
+        top: 80px;
+        width: 200px;
+        height: 100px;
+
+}
+#weather{
+    position: absolute;
+    top: 110px;
+    width: 400px;
+    height: 200px;
+    font-size: 50px;
+}
+#cloud_img{
+    position: absolute;
+    top: 140px;
+    width: 400px;
+    height: 200px;
+    font-size: 70px;
+}
+#cloudy{
+    position: absolute;
+    top: 260px;
+    width: 400px;
+    height: 200px;
+    opacity: .6;
+}
+#days{
+    position: absolute;
+    top: 320px;
+    width: 400px;
+    height: 200px;
+    line-height: 40px;
+
+}
+h4{
+    border: 1px solid black;
+    border-radius: 40px;
+    word-spacing: 90px;
+}
+input{
+    position: absolute;
+    bottom: 20px;
+    width: 160px;
+    height: 25px;
+    border-radius: 15px;
+
+}
+#mon:hover{
+    color:red;
+}
+#tues:hover{
+    color:red;
+}#thurs:hover{
+    color:red;
+}#weds:hover{
+    color:red;
+}#tues:hover{
+    color:red;
+}#fri:hover{
+    color:red;
+}#sat:hover{
+    color:red;
+}#sun:hover{
+    color:red;
+}
